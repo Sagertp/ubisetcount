@@ -1,0 +1,67 @@
+.countdownHolder{
+	width:640px;
+	margin:0 auto;
+	font: 40px/1.5 'Open Sans Condensed',sans-serif;
+	text-align:center;
+	letter-spacing:-10px;
+}
+
+.position{
+	display: inline-block;
+	height: 1.6em;
+	overflow: hidden;
+	position: relative;
+	width: 0.50em;
+    font-size: 70px
+}
+
+.digit{
+	position:absolute;
+	display:block;
+	width:.5em;
+	background-color:transparent;
+	border-radius:0.2em;
+	text-align:center;
+	color:#ff8700;
+	letter-spacing:-1px;
+    font-size: 60px
+}
+.countDays{ /* display:none !important;*/ }
+.countDiv0{ /* display:none !important;*/ }
+.countHours{}
+.countDiv1{}
+.countMinutes{}
+.countDiv2{}
+.countSeconds{}
+
+
+.countDiv{
+	display:inline-block;
+	width:60px;
+	height:2.7em;
+	position:relative;
+}
+
+
+.countDiv:after{
+	position:absolute;
+	width:3px;
+	height:100px;
+	background-color:#0d1a2a;
+	left:50%;
+	margin-left:-3px;
+    top: 5px;
+	content:'';
+}
+
+
+/* Paleta de colores */
+
+/*
+ * #ff8700 Mostaza
+ * #0d1a2a Azul oscuro
+ * #273c4d Azul Medio
+ * #7a9aaf Azul Claro
+ * #d2d3ce gris
+ */
+
